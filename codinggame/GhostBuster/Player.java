@@ -75,7 +75,7 @@ class Player {
                 int value = in.nextInt(); // For busters: Ghost id being carried. For ghosts: number of busters attempting to trap this ghost.
                 if(entityType == -1) { // this is ghost
                 	ghost[entityId] = entityId;
-                	ghostX[entityId] = 
+//                	ghostX[entityId] = 
                 }
             }
             for (int i = 0; i < bustersPerPlayer; i++) {
