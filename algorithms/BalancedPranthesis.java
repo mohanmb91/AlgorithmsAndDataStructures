@@ -14,8 +14,8 @@ public class BalancedPranthesis {
 		System.out.println(printBalancedParenthesis(3));
 	}
 	private static String printBalancedParenthesis(int n) {
-		StringBuilder sb = new StringBuilder();	
-		printBalancedParenthesisHelper(n, n, n, sb, "");
+	StringBuilder sb = new StringBuilder();	
+	printBalancedParenthesisHelper(n, n, n, sb, "");
 	return sb.toString();
 }
 	private static void printBalancedParenthesisHelper(int n, int aOP, int aCP, StringBuilder sb, String r) {
